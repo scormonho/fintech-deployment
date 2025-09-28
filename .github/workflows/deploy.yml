@@ -18,4 +18,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://scormon:$HF_TOKEN@huggingface.co/spaces/scormon/fintech-deployment main
+        run: git push --force https://scormon:$HF_TOKEN@huggingface.co/spaces/scormon/fintech_deployment main
